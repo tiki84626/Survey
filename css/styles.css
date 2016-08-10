@@ -1,0 +1,35 @@
+.output {
+  display: none;
+}
+.panel {
+  margin-top: 40px;
+}
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  padding: 20px;
+}
+
+.panel-heading {
+  font-size: 5em;
+  font-variant: small-caps;
+  font-style: italic;
+  text-align: center;
+}
+
+h3 {
+  font-variant: small-caps;
+}
+
+.well {
+  font-size: 2em;
+}
+
+input {
+  max-width: 500px;
+}
+
+.page-header {
+  max-width: 500px;
+}
