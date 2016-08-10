@@ -1,6 +1,11 @@
 .output {
   display: none;
 }
+h1 {
+  font-variant: small-caps;
+  padding-left: 38%;
+  font-size: 3em;
+}
 .panel {
   margin-top: 40px;
 }
