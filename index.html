@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Survey</title>
+    <link rel="stylesheet" href="css/bootstrap.css" media="screen" title="no title" charset="utf-8">
+    <link rel="stylesheet" href="css/styles.css" media="screen" title="no title" charset="utf-8">
+    <script src="js/jquery.js"></script>
+    <script src="js/scripts.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <!-- Page Header -->
+      <div class="page-header">
+        <h1>Survey!</h1>
+      </div>
+      <form>
+        <div class="form-group">
+          <label for="name">What is your Name:</label>
+          <input type="text" id="name" class="form-control">
+        </div>
+        <div class="form-group">
+          <label for="dob">What is your Date of Birth:</label>
+          <input type="date" id="dob" class="form-control">
+        </div>
+        <p><strong>What is your Favorite Type of Cuisine:</strong></p>
+        <select class="form-group" id="fav-food">
+          <option value="1">American</option>
+          <option value="2">French</option>
+          <option value="3">Italian</option>
+          <option value="4">Indian</option>
+        </select>
+
+        <div class="form-group">
+          <label for="color">What is your Favorite Color:</label>
+          <input type="color" id="color" class="form-control" value="#ffffff" />
+        </div>
+
+        <p><strong>What is your Favorite Type of Music:</strong></p>
+        <div class="radio">
+          <label>
+            <input type="radio" name="fav-music" value="rock" checked />
+            Rock
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" name="fav-music" value="jazz" />
+            Jazz
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" name="fav-music" value="hip-hop" />
+            Hip-Hop
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" name="fav-music" value="country" />
+            Country
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" name="fav-music" value="blues" />
+            Blues
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" name="fav-music" value="rap" />
+            Rap
+          </label>
+        </div>
+
+        <button class="btn" type="submit">Submit!</button>
+      </form>
+    </div>
+  </body>
+</html>
